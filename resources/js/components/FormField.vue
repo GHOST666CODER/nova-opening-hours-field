@@ -1,5 +1,5 @@
 <template>
-    <default-field :field="field" :errors="errors">
+    <default-field :field="field" :errors="errors" :full-width-content="true">
         <template slot="field">
             <table class="openingHours table w-full">
                 <tr v-for="(intervals, dayNameAsKey) in openingHours">
